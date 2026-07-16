@@ -1,0 +1,35 @@
+//Una matriz de 3x4 para almacenar numeros enteros, calcular la suma
+//de los numeros almacenados
+Algoritmo ejemplo1
+	Definir n Como Entero
+	Definir f, c, i, j, suma Como Entero
+	//Definir valores a nuestros variables
+	suma=0
+	f=3
+	c=4
+	Dimensionar n[f,c]
+	
+	//recorrer filas
+	Para i=1 Hasta f Con Paso 1 Hacer
+		//Recorrer columnas
+		Para j=1 Hasta c Con Paso 1 Hacer
+			Escribir "Ingresar numero en la fila: ",i," y en la columna: ",j
+			Leer n[i,j]
+			suma=suma+n[i,j]
+		Fin Para
+	Fin Para
+	Escribir"Datos almacenados correctamente"
+	
+	//Mostrar los datos en la matriz
+	Limpiar Pantalla
+	Para i=1 Hasta f Con Paso 1 Hacer
+		//Recorrer columnas
+		Para j=1 Hasta c Con Paso 1 Hacer
+			Escribir Sin Saltar n[i,j]," "
+		Fin Para
+		Escribir ()
+	Fin Para
+	
+	Escribir ()
+	Escribir "La suma de todos los numeros son: ", suma
+FinAlgoritmo
