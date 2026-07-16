@@ -1,7 +1,7 @@
 Algoritmo Lecc17_Act3_Inc2
     Definir fila, columna, x, yy, mayorr Como Entero
     Definir tabla Como Entero
-	
+	// Sergio Calderon - IVE
     Dimension tabla[4,4]
 	
     Para fila = 1 Hasta 4 Hacer
