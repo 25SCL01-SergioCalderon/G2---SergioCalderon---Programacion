@@ -1,5 +1,6 @@
 Algoritmo Lecc17_Act2_Inc1_PSeint
 	// Variables para recorrer las filas y las columnas
+    // Sergio Calderon - IVE
     Definir numeroFila, numeroColumna Como Entero
 	// Creamos la matriz  de 4 filas por 4 columnas
     Definir matrizIdentidad Como Entero
@@ -16,7 +17,7 @@ Algoritmo Lecc17_Act2_Inc1_PSeint
         FinPara
     FinPara
 	
-	//Mostramos cómo quedo la matriz
+	//Mostramos cÃ³mo quedo la matriz
     Escribir "Matriz Identidad"
     Para numeroFila = 1 Hasta 4 Hacer
         Para numeroColumna = 1 Hasta 4 Hacer
