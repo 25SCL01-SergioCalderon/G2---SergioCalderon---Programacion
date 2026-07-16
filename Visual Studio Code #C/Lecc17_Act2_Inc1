@@ -1,0 +1,34 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int Fila, Columna;
+        int[,] matrizIdentidad = new int[4, 4];
+
+        for (Fila = 0; Fila < 4; Fila++)
+        {
+            for (Columna = 0; Columna < 4; Columna++)
+            {
+                if (Fila == Columna)
+                {
+                    matrizIdentidad[Fila, Columna] = 1;
+                }
+                else
+                {
+                    matrizIdentidad[Fila, Columna] = 0;
+                }
+            }
+        }
+
+        Console.WriteLine("Matriz Identidad");
+
+        for (Fila = 0; Fila < 4; Fila++)
+        {
+            for (Columna = 0; Columna < 4; Columna++)
+            {
+                Console.Write(matrizIdentidad[Fila, Columna] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}

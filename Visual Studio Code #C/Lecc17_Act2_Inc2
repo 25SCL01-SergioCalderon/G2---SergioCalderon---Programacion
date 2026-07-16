@@ -1,0 +1,27 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int Fila, Columna;
+        int[,] matriz = new int[4, 4];
+
+        for (Fila = 0; Fila < 4; Fila++)
+        {
+            for (Columna = 0; Columna < 4; Columna++)
+            {
+                matriz[Fila, Columna] = Columna + 1;
+            }
+        }
+
+        Console.WriteLine("Matriz de columnas");
+
+        for (Fila = 0; Fila < 4; Fila++)
+        {
+            for (Columna = 0; Columna < 4; Columna++)
+            {
+                Console.Write(matriz[Fila, Columna] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}

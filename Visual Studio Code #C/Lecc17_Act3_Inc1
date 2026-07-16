@@ -1,0 +1,24 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int Fila, Columna, num, suma;
+        int[,] tabla = new int[4, 3];
+
+        for (Fila = 0; Fila < 4; Fila++)
+        {
+            suma = 0;
+
+            for (Columna = 0; Columna < 3; Columna++)
+            {
+                Console.Write("Ingrese un numero: ");
+                num = Convert.ToInt32(Console.ReadLine());
+
+                tabla[Fila, Columna] = num;
+                suma = suma + num;
+            }
+
+            Console.WriteLine("La suma de la fila " + (Fila + 1) + " es: " + suma);
+        }
+    }
+}
