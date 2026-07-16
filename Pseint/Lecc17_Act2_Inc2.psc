@@ -1,6 +1,6 @@
 Algoritmo Lecc17_Act2_Inc2
 	Definir numeroFila, numeroColumna Como Entero
-	
+	// Sergio Calderon - IVE
 	Definir matrizColumna Como Entero
 	Dimension matrizColumna[4,4]
 	
