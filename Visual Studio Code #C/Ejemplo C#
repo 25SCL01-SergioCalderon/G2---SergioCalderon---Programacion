@@ -1,0 +1,36 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("EJEMPLO CON MATRICES");
+        //lA declaracion e inicializacion de una matriz
+        int[,] n = new int[3, 4];
+        int suma = 0, f = 3, c = 4;
+
+        //Ingreso de datos a la matriz
+        for (int i = 0; i < f; i++)
+        {
+            for (int j = 0; j < c; j++)
+            {
+                Console.Write("Ingrese un numero en la fila: " + i + " y en la columna: " +j+": ");
+                n[i,j]=Convert.ToInt32(Console.ReadLine());
+                suma += n[i,j];
+                //suma=suma+n[i,j]
+            }
+        }
+        Console.WriteLine("Matriz llenaa...");
+        Console.Clear();
+
+        //Mostrar los datos de la matriz
+        for (int i = 0; i < f; i++)
+        {
+            for (int j = 0; j < c; j++)
+            {
+                Console.Write(n[i,j]+"\t");
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine();
+        Console.WriteLine("lA Suma total es: " + suma);
+    }
+}
