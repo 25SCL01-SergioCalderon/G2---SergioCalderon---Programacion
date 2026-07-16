@@ -1,5 +1,6 @@
 Algoritmo Lecc17_Act3_Inc1
 	Definir fila, columna, num, suma Como Entero
+   // Sergio Calderon - IVE
 	
 	Definir tabla Como Entero
 	Dimension tabla[4,3]
