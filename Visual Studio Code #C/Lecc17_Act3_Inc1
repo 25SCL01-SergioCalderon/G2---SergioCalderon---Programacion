@@ -4,7 +4,7 @@ internal class Program
     {
         int Fila, Columna, num, suma;
         int[,] tabla = new int[4, 3];
-
+        // Sergio Calderon - IVE
         for (Fila = 0; Fila < 4; Fila++)
         {
             suma = 0;
