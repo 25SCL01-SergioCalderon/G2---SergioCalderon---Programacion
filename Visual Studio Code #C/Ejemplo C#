@@ -5,6 +5,7 @@ internal class Program
         Console.WriteLine("EJEMPLO CON MATRICES");
         //lA declaracion e inicializacion de una matriz
         int[,] n = new int[3, 4];
+        // Sergio Calderon - IVE
         int suma = 0, f = 3, c = 4;
 
         //Ingreso de datos a la matriz
